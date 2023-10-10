@@ -1,0 +1,14 @@
+discovery-url: http://keycloak:8080/realms/demo
+client-id: dummy-service
+client-secret: 52Bn2RNG6cERxGSB7EYwx9gOQILvkTNg
+encryption-key: AgXa7xRcoClDEU0ZDSH4X0XhL5Qy2Z2j
+upstream-url: http://ades
+secure-cookie: false
+enable-request-id: true
+enable-refresh-tokens: true
+enable-login-handler: true
+enable-uma: true
+enable-logout-redirect: true
+enable-metrics: true
+enable-logging: true
+listen: :3000
